@@ -1,0 +1,21 @@
+{
+  "name": "discord-security-bot",
+  "version": "1.0.0",
+  "description": "Discord Security Bot mit Anti-Nuke, Anti-Spam und Web-Dashboard",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "passport": "^0.7.0",
+    "passport-discord": "^0.1.4",
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9"
+  }
+}
